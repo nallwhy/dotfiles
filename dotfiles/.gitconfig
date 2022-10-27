@@ -1,0 +1,18 @@
+[alias]
+        co = checkout
+        br = branch
+        st = stash
+        rb = rebase
+        cm = commit
+        ps = push
+        pl = pull
+        f = fetch
+        cp = cherry-pick
+        cb = "! git branch --show-current | tr -d '\n' | pbcopy"
+
+[pull]
+        ff = only
+        default = current        
+
+[push]
+        default = current
